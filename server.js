@@ -47,15 +47,15 @@ app.post('/api/register', async (req, res) => {
 
     // Define the event (adjust title/times as needed)
     const event = {
-      summary: 'FutureTech Summit 2026',
+      summary: 'Digital Marketing Future 2026',
       location: MEETING_LINK,
       description: `Hi ${name},\n\nThank you for registering!\n\nHere is your static Google Meet link to join the sessions:\n${MEETING_LINK}\n\nSee you there!\n- Event Team`,
       start: {
-        dateTime: '2026-11-24T10:00:00Z', // Nov 24, 2026, 10:00 AM UTC
+        dateTime: '2026-11-28T10:00:00Z', // Nov 24, 2026, 10:00 AM UTC
         timeZone: 'UTC'
       },
       end: {
-        dateTime: '2026-11-24T12:00:00Z', // Nov 24, 2026, 12:00 PM UTC
+        dateTime: '2026-11-28T11:00:00Z', // Nov 24, 2026, 12:00 PM UTC
         timeZone: 'UTC'
       },
       // Invite the registrant as an attendee to trigger the automatic invite email
